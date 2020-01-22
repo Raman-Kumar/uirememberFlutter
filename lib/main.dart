@@ -35,10 +35,15 @@ class _MyHomePageState extends State<MyHomePage> {
         width: double.infinity,
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("img/butterfly.jpg"),
+            image: AssetImage("img/bluepic.jpg"),
             fit: BoxFit.cover,
             ),
          ),
+         child: Column(
+           mainAxisAlignment: MainAxisAlignment.start,
+           children: <Widget>[
+            Icon(Icons.add, size: 74.0,color: Colors.cyan,),
+           ],),
       )
     );
   }
